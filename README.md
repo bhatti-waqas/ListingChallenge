@@ -5,7 +5,7 @@ Listing Codding test,  iOS test application. Get a list of Items from api and di
 ## Technical Stack
 
 ### Enviroment
-- Xcode 14.0
+- Xcode 13.0
 - Swift 5.0.0
 
 ### Dependencies
