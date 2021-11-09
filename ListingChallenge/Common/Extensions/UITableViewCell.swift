@@ -2,7 +2,7 @@
 //  UITableViewCel.swift
 //  ListingChallenge
 //
-//  Created by Waqas Naseem on 10/28/21.
+//  Created by Waqas Naseem on 11/9/21.
 //
 
 import UIKit
