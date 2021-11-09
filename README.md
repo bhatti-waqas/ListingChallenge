@@ -20,7 +20,7 @@ This project uses Swift Package Manager [SPM](https://swift.org/package-manager/
 - Fetch Listings of product and display
 - This class is written in swift
 <br>
-<img src = "README Files/listings.png" width = 600>
+<img src = "README Files/listing.png" width = 600>
 
 - Listing Detail
 - This class is written in Objective-c as bonus point
