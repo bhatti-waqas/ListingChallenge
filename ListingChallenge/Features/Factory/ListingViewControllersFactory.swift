@@ -1,5 +1,5 @@
 //
-//  RecipeViewControllerFactory.swift
+//  ListingViewControllersFactory.swift
 //  ListingChallenge
 //
 //  Created by Waqas Naseem on 11/9/21.
@@ -25,7 +25,7 @@ final class ListingViewControllersFactory {
             ListingViewController(coder: $0, viewModel: viewModel)
         }
         guard let listViewController = viewController else {
-            fatalError("Failed to load RecipeViewController from storyboard.")
+            fatalError("Failed to load ListingViewController from storyboard.")
         }
         return listViewController
     }
@@ -34,14 +34,11 @@ final class ListingViewControllersFactory {
     func makeListingDetailViewController(navigator: ListingCoordinator, viewModel: ListingRowViewModel) -> ListingDetailViewController_v1 {
         let storyboard = UIStoryboard(name: .listingDetail)
         let viewController = storyboard.instantiateInitialViewController {
-            //ListingDetailViewController(coder: $0, viewModel: viewModel)
-            let vc = ListingDetailViewController_v1(coder: $0)
-            vc?.viewModel = viewModel
-            return vc
+            ListingDetailViewController_v1(coder: $0, viewModel: viewModel)
         }
         guard let detailViewController = viewController else {
-            fatalError("Failed to load RecipeViewController from storyboard.")
+            fatalError("Failed to load ListingDetailViewController from storyboard.")
         }
-        return detailViewController as! ListingDetailViewController_v1
+        return detailViewController// as! ListingDetailViewController_v1
     }
 }

@@ -22,7 +22,6 @@ final class AppServiceLocator {
     private init(){
         //Register dependencies
         let networkService: NetworkServiceProtocol = NetworkService()
-        //listingUseCase = NetworkRecipeUseCase(networkService: networkService)
         listingUseCase = NetworkListingUseCase(networkService: networkService)
     }
     

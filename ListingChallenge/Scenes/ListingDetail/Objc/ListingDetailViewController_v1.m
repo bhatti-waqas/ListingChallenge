@@ -12,6 +12,7 @@
 @property(nonatomic,weak) IBOutlet UILabel *name;
 @property(nonatomic,weak) IBOutlet UILabel *price;
 @property(nonatomic,weak) IBOutlet UIImageView *imageView;
+@property(nonatomic,strong) ListingRowViewModel *viewModel;
 @end
 
 @implementation ListingDetailViewController_v1

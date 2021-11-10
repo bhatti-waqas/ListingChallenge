@@ -11,8 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ListingDetailViewController_v1 : UIViewController
-//-(instancetype)initWithCoder:(NSCoder *)coder viewModel:(ListingRowViewModel *)viewModel;
-@property(nonatomic,strong) ListingRowViewModel *viewModel;
+-(instancetype)initWithCoder:(NSCoder *)coder viewModel:(ListingRowViewModel *)viewModel;
 @end
 
 NS_ASSUME_NONNULL_END

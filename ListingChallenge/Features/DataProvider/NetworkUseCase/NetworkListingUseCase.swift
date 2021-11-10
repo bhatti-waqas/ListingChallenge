@@ -1,5 +1,5 @@
 //
-//  NetworkRecipeUseCase.swift
+//  NetworkListingUseCase.swift
 //  ListingChallenge
 //
 //  Created by Waqas Naseem on 11/9/21.
@@ -15,7 +15,7 @@ final class NetworkListingUseCase {
         self.networkService = networkService
     }
 }
-//MARK:- RecipeUse case implementation
+//MARK:- NetworkListing Use case implementation
 extension NetworkListingUseCase: ListingUseCase {
     
     func fetchListings(then completion: @escaping Completion) {
