@@ -39,6 +39,6 @@ final class ListingViewControllersFactory {
         guard let detailViewController = viewController else {
             fatalError("Failed to load ListingDetailViewController from storyboard.")
         }
-        return detailViewController// as! ListingDetailViewController_v1
+        return detailViewController
     }
 }
